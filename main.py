@@ -98,7 +98,6 @@ if __name__ == "__main__":
 
     referral_link = sys.argv[1]
     emails_to_create = int(sys.argv[2])
-    # referral_link = "https://cult.quest/JaoTheFreak"
     print(
         f"Iniciando o processamento de {emails_to_create} emails para o link: {referral_link}"
     )
