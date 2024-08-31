@@ -6,7 +6,18 @@ You must have installed python in your machine. After python's installation you 
 
 `python -m venv .venv`
 
-When finished the env creation, install the packages from `requirements.txt` file, running the following command:
+
+When finished the env creation, you have to activate it:
+
+> Run this code. It will get activated if you are on a Windows machine:
+
+`. venv/Scripts/activate`
+
+> Run this code. It will get activated if you are on a Linux or Mac machine:
+
+`. venv/bin/activate`
+
+After activation install the packages from `requirements.txt` file, running the following command:
 
 `pip install -r ./requirements.txt`
 
